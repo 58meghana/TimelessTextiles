@@ -1,0 +1,302 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Timeless Textiles</title>
+    <link rel="stylesheet" href="home.css">
+</head>
+<body>
+<!-- Header Section with Logo and Website Name -->
+<nav class="navbar header">
+
+    <!-- Logo Container -->
+    <div class="logo-container">
+        <a href="home.html">
+            <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcT_2kUtxKZXdSEEuEBLytCuBBLDIpJhbQ0QG7QBd7ClKb5824NTEZyF1zSnW-plbvmnIgc&usqp=CAU" alt="Logo" class="logo">
+        </a>
+    </div> 
+
+    <div class="header-content">
+        <h1 class="website-name"><center>Timeless Textiles</center></h1>
+    </div>
+
+    <!-- Menu links on the right -->
+    <div class="menu">
+        <a href="women.html" target="_blank">Women</a>
+        <a href="men.html" target="_blank">Men</a>
+        <a href="kids.html" target="_blank">Kids</a>
+    </div>
+
+    <!-- Optional: icons for login and cart -->
+    <div class="icons-container">
+        <button id="loginBtn">Login</button>
+        <a href="cart.html" target="_blank"><img src="https://i.pinimg.com/originals/f2/12/4e/f2124e83e9fd8ddeb31ac7cdb59f544c.jpg" alt="Cart" class="cart-icon"></a>
+        <a href="#" id="logoutBtn" style="display:none;">Logout</a>
+    </div>
+</nav>
+
+   <!-- Offers Section (Modified) -->
+<div class="offers-section">
+    <div class="offer-slider" id="offerSlider">
+        <!-- Offer 1: Dassara Offers -->
+        <div class="offer-card" id="offer1">
+            <img src="https://n-img1.junaroad.com/assets/images/mobileNotif/img-1727184547332.jpg?crsl_pos=4" alt="Dassara Offer" class="offer-image">
+                    
+        </div>
+
+        <!-- Offer 2: Women Tops Offers -->
+        <div class="offer-card" id="offer2">
+            <img src="https://n-img1.junaroad.com/assets/images/mobileNotif/img-1725269169377.jpg?crsl_pos=4" alt="Women Tops Offer" class="offer-image">
+
+        </div>
+    </div>
+</div>
+  <!-- New Arrivals Section -->
+  <section class="new-arrivals">
+    <h2>New Arrivals</h2>
+    <div class="new-arrivals-container">
+
+        <!-- New Arrival 1 -->
+        <div class="arrival-item" onclick="document.getElementById('modal1').style.display='flex'">
+            <img src="https://cdn.fcglcdn.com/brainbees/images/products/583x720/15922144a.webp" alt="New Arrival 1" class="arrival-image">
+        </div>
+
+        <!-- New Arrival 2 -->
+        <div class="arrival-item" onclick="document.getElementById('modal2').style.display='flex'">
+            <img src="https://prod-img.thesouledstore.com/public/theSoul/uploads/catalog/product/1724520859_1438769.jpg?format=webp&w=480&dpr=1.5" alt="New Arrival 2" class="arrival-image">
+        </div>
+
+        <!-- New Arrival 3 -->
+        <div class="arrival-item" onclick="document.getElementById('modal3').style.display='flex'">
+            <img src="https://encrypted-tbn0.gstatic.com/shopping?q=tbn:ANd9GcQvynbqsQFR2qbiVisZujSSJ7n3g2R_E-1xExJBgjT5FzGxQcGM9bPs440EgQOasn_aGwp9KwKpIECwq-GWH2ECEPTV2ftD53hz9hbRU-NaNVlYlbEgq0zV&usqp=CAE" alt="New Arrival 3" class="arrival-image">
+        </div>
+
+         <!-- New Arrival 4-->
+         <div class="arrival-item" onclick="document.getElementById('modal4').style.display='flex'">
+            <img src="https://www.hancockfashion.com/cdn/shop/files/14053Black_8.jpg?v=1698823991&width=1800" alt="New Arrival 3" class="arrival-image">
+        </div>
+
+         <!-- New Arrival 5 -->
+         <div class="arrival-item" onclick="document.getElementById('modal5').style.display='flex'">
+            <img src="https://images.meesho.com/images/products/312621439/wtoow_512.webp" alt="New Arrival 3" class="arrival-image">
+        </div>
+
+    </div>
+</section>
+
+<section>
+    <div class="About-US" style="color: #192A51 !important;">
+        <a href="aboutus.html" target="_blank">
+           <center><h2>About Us</h2></center>
+           
+        </a>
+        <center><p>Click to know about Timeless Textiles</p></center>
+     </div>
+</section>
+<!-- Modal for New Arrival 1 -->
+<div id="modal1" class="modal" style="display: none;">
+    <div class="modal-content">
+        <span class="close" onclick="document.getElementById('modal1').style.display='none'">&times;</span>
+        
+        <!-- Product Image -->
+        <img src="https://cdn.fcglcdn.com/brainbees/images/products/583x720/15922144a.webp" alt="New Arrival 1" class="arrival-image">
+        
+        <p><strong>Cost:</strong> ₹800</p>
+        <p><strong>Size:</strong> 
+
+        <!-- Product Details -->
+        <div class="size-buttons">
+            <button class="size-btn">S</button>
+            <button class="size-btn">M</button>
+            <button class="size-btn">L</button>
+        </div>
+        <p><strong>Cloth Type:</strong> Cotton</p>
+
+        <!-- Buttons for actions -->
+        <div class="button-group">
+            <button class="action-btn buy-now-btn"><i class="fas fa-shopping-bag"></i> Buy Now</button>
+            <button class="action-btn cart-btn"><i class="fas fa-shopping-cart"></i> Add to Cart</button>
+            <button class="action-btn wishlist-btn"><i class="fas fa-heart"></i> Wishlist</button>
+        </div>
+    </div>
+</div>
+
+<!-- Modal for New Arrival 2 -->
+<div id="modal2" class="modal" style="display: none;">
+    <div class="modal-content">
+        <span class="close" onclick="document.getElementById('modal2').style.display='none'">&times;</span>
+        
+        <!-- Product Image -->
+        <img src="https://prod-img.thesouledstore.com/public/theSoul/uploads/catalog/product/1724520859_1438769.jpg?format=webp&w=480&dpr=1.5" alt="New Arrival 2" class="arrival-image">
+        
+        <!-- Product Details -->
+        <p><strong>Cost:</strong> ₹750</p>
+        <p><strong>Size:</strong></p>
+        
+        <!-- Size Buttons -->
+        <div class="size-buttons">
+            <button class="size-btn">S</button>
+            <button class="size-btn">M</button>
+            <button class="size-btn">L</button>
+        </div>
+        
+        <p><strong>Cloth Type:</strong> Polyester</p>
+
+        <!-- Action Buttons -->
+        <div class="action-buttons">
+            <button class="action-btn buy-now"><i class="fas fa-shopping-bag"></i> Buy Now</button>
+            <button class="action-btn add-to-cart"><i class="fas fa-shopping-cart"></i> Add to Cart</button>
+            <button class="action-btn wishlist"><i class="fas fa-heart"></i> Wishlist</button>
+        </div>
+    </div>
+</div>
+
+<!-- Modal for New Arrival 3 -->
+<div id="modal3" class="modal" style="display: none;">
+    <div class="modal-content">
+        <span class="close" onclick="document.getElementById('modal3').style.display='none'">&times;</span>
+        
+        <!-- Product Image -->
+        <img src="https://encrypted-tbn0.gstatic.com/shopping?q=tbn:ANd9GcQvynbqsQFR2qbiVisZujSSJ7n3g2R_E-1xExJBgjT5FzGxQcGM9bPs440EgQOasn_aGwp9KwKpIECwq-GWH2ECEPTV2ftD53hz9hbRU-NaNVlYlbEgq0zV&usqp=CAE" alt="New Arrival 3" class="arrival-image">
+        
+        <!-- Product Details -->
+        <p><strong>Cost:</strong> ₹900</p>
+        
+        <!-- Size Buttons -->
+        <p><strong>Size:</strong></p>
+        <div class="size-buttons">
+            <button class="size-btn">S</button>
+            <button class="size-btn">M</button>
+            <button class="size-btn">L</button>
+        </div>
+        
+        <p><strong>Cloth Type:</strong> Silk</p>
+
+        <!-- Action Buttons -->
+        <div class="action-buttons">
+            <button class="action-btn buy-now"><i class="fas fa-shopping-bag"></i> Buy Now</button>
+            <button class="action-btn add-to-cart"><i class="fas fa-shopping-cart"></i> Add to Cart</button>
+            <button class="action-btn wishlist"><i class="fas fa-heart"></i> Wishlist</button>
+        </div>
+    </div>
+</div>
+
+<!-- Modal for New Arrival 4 -->
+<div id="modal4" class="modal" style="display: none;">
+    <div class="modal-content">
+        <span class="close" onclick="document.getElementById('modal4').style.display='none'">&times;</span>
+        
+        <!-- Product Image -->
+        <img src="https://www.hancockfashion.com/cdn/shop/files/14053Black_8.jpg?v=1698823991&width=1800" alt="New Arrival 4" class="arrival-image">
+        
+        <!-- Product Details -->
+        <p><strong>Cost:</strong> ₹1500</p>
+        
+        <!-- Size Buttons -->
+        <p><strong>Size:</strong></p>
+        <div class="size-buttons">
+            <button class="size-btn">L</button>
+            <button class="size-btn">M</button>
+            <button class="size-btn">XL</button>
+        </div>
+        
+        <p><strong>Cloth Type:</strong> Rayon</p>
+
+        <!-- Action Buttons -->
+        <div class="action-buttons">
+            <button class="action-btn buy-now"><i class="fas fa-shopping-bag"></i> Buy Now</button>
+            <button class="action-btn add-to-cart"><i class="fas fa-shopping-cart"></i> Add to Cart</button>
+            <button class="action-btn wishlist"><i class="fas fa-heart"></i> Wishlist</button>
+        </div>
+    </div>
+</div>
+
+<!-- Modal for New Arrival 5 -->
+<div id="modal5" class="modal" style="display: none;">
+    <div class="modal-content">
+        <span class="close" onclick="document.getElementById('modal5').style.display='none'">&times;</span>
+        
+        <!-- Product Image -->
+        <img src="https://images.meesho.com/images/products/312621439/wtoow_512.webp" alt="New Arrival 5" class="arrival-image">
+        
+        <!-- Product Details -->
+        <p><strong>Cost:</strong> ₹1000</p>
+        
+        <p><strong>Cloth Type:</strong> Cotton</p>
+
+        <!-- Action Buttons -->
+        <div class="action-buttons">
+            <button class="action-btn buy-now"><i class="fas fa-shopping-bag"></i> Buy Now</button>
+            <button class="action-btn add-to-cart"><i class="fas fa-shopping-cart"></i> Add to Cart</button>
+            <button class="action-btn wishlist"><i class="fas fa-heart"></i> Wishlist</button>
+        </div>
+    </div>
+</div>
+
+<!-- Popup Login/Signup Form -->
+    <div id="loginModal" class="modal">
+        <div class="modal-content">
+            <span class="close">&times;</span>
+            <div id="loginForm">
+                <h2>Login</h2>
+                <form id="loginFormElement">
+                    <label for="email">Email:</label>
+                    <input type="email" id="email" placeholder="Enter your email" required>
+                    <label for="password">Password:</label>
+                    <input type="password" id="password" placeholder="Enter your password" required>
+                    <button type="submit">Submit</button>
+                </form>
+                <p>New to our website? <a href="#" id="signUpLink">Sign Up</a></p>
+            </div>
+
+            <div id="signupForm" style="display: none;">
+                <h2>Sign Up</h2>
+                <form>
+                    <label for="signupEmail">Email:</label>
+                    <input type="email" id="signupEmail" placeholder="Enter your email" required>
+                    <label for="signupPhone">Phone Number:</label>
+                    <input type="tel" id="signupPhone" placeholder="Enter your phone number" required>
+                    <label for="signupPassword">Create Password:</label>
+                    <input type="password" id="signupPassword" placeholder="Create your password" required>
+                    <button type="submit">Sign Up</button>
+                </form>
+                <p>Already have an account? <a href="#" id="loginLink">Login</a></p>
+            </div>
+        </div>
+    </div>
+<!-- Footer Section -->
+<footer class="footer">
+    
+    <div class="footer-content">
+        <div class="address">
+            <h3>Address</h3>
+            <p>Nehuru street</p>
+            <p> Ayyappa Nagar</p>
+            <p>Vijayawada</p>
+        </div>
+        <div class="contact-details">
+            <h3>Contact Us</h3>
+            <p>Mobile no: 9453654212 </p>
+            <p>Email: timelessetextile@gmail.com</p>
+        </div>
+        <div class="timings">
+            <h3>Store Timings</h3>
+            <p>Mon - Sat: 9:00 AM - 10:00 PM</p>
+            <p>Sun: 4:00 AM - 9:00 PM</p>
+        </div>
+    </div>
+    <div class="footer-bottom">
+        <p>&copy; 2024 ClothingStore. All rights reserved.</p>
+    </div>
+</footer>
+
+    <!-- Connect the external JavaScript file here -->
+    <script src="home.js"></script>
+
+</body>
+</html>
