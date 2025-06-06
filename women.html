@@ -1,0 +1,335 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Women's Collection</title>
+    <link rel="stylesheet" href="women.css">
+</head>
+<body>
+    <!-- Header Section with Logo, Timeless Textiles, and Cart -->
+<nav class="navbar header">
+    <!-- Logo Container -->
+    <div class="logo-container">
+        <a href="home.html">
+            <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcT_2kUtxKZXdSEEuEBLytCuBBLDIpJhbQ0QG7QBd7ClKb5824NTEZyF1zSnW-plbvmnIgc&usqp=CAU" alt="Logo" class="logo">
+        </a>
+    </div> 
+    
+    <!-- Website Name -->
+    <div class="header-content">
+        <h1 class="website-name">Timeless Textiles</h1>
+    </div>
+    
+    <!-- Cart Icon -->
+    <div class="icons-container">
+        <a href="cart.html" target="_blank">
+            <img src="https://i.pinimg.com/originals/f2/12/4e/f2124e83e9fd8ddeb31ac7cdb59f544c.jpg" alt="Cart" class="cart-icon">
+        </a>
+    </div>
+</nav>
+
+    <!-- Main Heading -->
+    <h1>Women's Collections</h1>
+
+    <!-- Filter Section and Product Grid Container -->
+    <div class="container">
+        
+        <!-- Filter Section -->
+        <div class="filter-section">
+            <h2>Filter by</h2>
+            <!-- Category Filters -->
+                <h4>Categories</h4>
+                <label><input type="checkbox" name="category" value="Tops"> Tops</label><br>
+                <label><input type="checkbox" name="category" value="Jeans"> Jeans</label><br>
+                <label><input type="checkbox" name="category" value="kurtas"> Kurtas</label><br>
+                <label><input type="checkbox" name="category" value="sarees"> Sarees</label><br>
+              
+            
+             <!-- Price Filter -->
+             
+                <h4>Price Range</h4>
+                
+                <!-- Custom Price Option: Below ₹1000 -->
+                <label class="custom-radio">
+                    <input type="radio" name="price" value="below1000">
+                    <span class="radio-btn"></span>
+                    <span class="price-label">Below ₹1000</span>
+                </label>
+                <br>
+                <!-- Custom Price Option: ₹1000 - ₹3000 -->
+                <label class="custom-radio">
+                    <input type="radio" name="price" value="1000to2000">
+                    <span class="radio-btn"></span>
+                    <span class="price-label">₹1000 - ₹2000</span>
+                </label>
+                <br>
+                <!-- Custom Price Option: Above ₹3000 -->
+                <label class="custom-radio">
+                    <input type="radio" name="price" value="above2000">
+                    <span class="radio-btn"></span>
+                    <span class="price-label">Above ₹2000</span>
+                </label>
+            
+        </div>
+
+        <!-- Product Grid Section -->
+        <div class="product-grid" id="productGrid">
+            <!-- Product items with price and category data attributes -->
+             
+            <div class="product-item" data-price="450" data-category="tops" data-sizes="s,m,l,xl">
+                <img src="https://dynamic.zacdn.com/bp0UkgU2L6WBOE8HmEAVzZPkuxA=/filters:quality(70):format(webp)/https://static-ph.zacdn.com/p/jojo-fashion-house-5170-9488133-1.jpg" alt="Product 1" class="product-image">
+                <p>Prize: ₹450</p>
+                <div class="size-options">
+                    <button class="size-button">S</button>
+                    <button class="size-button">M</button>
+                    <button class="size-button">L</button>
+                    <button class="size-button">XL</button>
+                </div>
+                <button>Add to Cart</button>
+            </div>
+        
+            <div class="product-item" data-price="950" data-category="sarees">
+                <img src="https://cdn.shopify.com/s/files/1/0049/3649/9315/files/koskii-mauve-swarovski-semicrepe-designer-saree-saus0030407_mauve_4_large.jpg?v=1710162481" alt="Product 5" class="product-image">
+                <p>Prize:950/-</p>
+                <div class="size-options">
+                    <button class="size-button">S</button>
+                    <button class="size-button">M</button>
+                    <button class="size-button">L</button>
+                    <button class="size-button">XL</button>
+                </div>
+                <button>Add to Cart</button>
+            </div>
+            <div class="product-item" data-price="900" data-category="kurtas">
+                <img src="https://m.media-amazon.com/images/I/71brKjTKyaL._SY879_.jpg" alt="Product 5" class="product-image">
+                <p>Prize:900/-</p>
+                <div class="size-options">
+                    <button class="size-button">S</button>
+                    <button class="size-button">M</button>
+                    <button class="size-button">L</button>
+                    <button class="size-button">XL</button>
+                </div>
+                <button>Add to Cart</button>
+            </div>
+            
+            <div class="product-item" data-price="1700" data-category="Jeans">
+                <img src="https://m.media-amazon.com/images/I/41kCu6uOIgL.jpg" alt="Product 5" class="product-image">
+                <p>Prize:1700/-</p>
+                <div class="size-options">
+                    <button class="size-button">S</button>
+                    <button class="size-button">M</button>
+                    <button class="size-button">XL</button>
+                </div>
+                <button>Add to Cart</button>
+            </div>
+            <div class="product-item" data-price="1700" data-category="Tops">
+                <img src="https://rukminim2.flixcart.com/image/850/1000/xif0q/kurta/z/k/f/l-sckurti-sc-1030-white-sc-kurtis-original-imagrg5eygqedduv.jpeg?q=90&crop=false" alt="Product 4" class="product-image">
+                <p>Prize:1700/-</p>
+                <div class="size-options">
+                    <button class="size-button">S</button>
+                    <button class="size-button">M</button>
+                    <button class="size-button">XL</button>
+                    <button class="size-button">XLL</button>
+                </div>
+                <button>Add to Cart</button>
+            </div>
+            <div class="product-item" data-price="2000" data-category="Tops">
+                <img src="https://m.media-amazon.com/images/I/71teiu5GqNL._SY879_.jpg" alt="Product 5" class="product-image">
+                <p>Prize:2000/-</p>
+                <div class="size-options">
+                    <button class="size-button">S</button>
+                    <button class="size-button">M</button>
+                    <button class="size-button">XS</button>
+                    <button class="size-button">XL</button>
+                </div>
+                <button>Add to Cart</button>
+            </div>
+            
+            <div class="product-item" data-price="800" data-category="Jeans">
+                <img src="https://m.media-amazon.com/images/I/61GbxjgU1yL._SX679_.jpg" alt="Product 5" class="product-image">
+                <p>Prize:800/-</p>
+                <div class="size-options">
+                    <button class="size-button">S</button>
+                    <button class="size-button">M</button>
+                    <button class="size-button">XS</button>
+                    <button class="size-button">XXL</button>
+                </div>
+                <button>Add to Cart</button>
+            </div>
+            <div class="product-item" data-price="1000" data-category="Jeans">
+                <img src="https://m.media-amazon.com/images/I/51msvvfItcL._SY879_.jpg" alt="Product 5" class="product-image">
+                <p>Prize:1000/-</p>
+                <div class="size-options">
+                    <button class="size-button">S</button>
+                    <button class="size-button">M</button>
+                    <button class="size-button">L</button>
+                    <button class="size-button">XL</button>
+                </div>
+                <button>Add to Cart</button>
+            </div>
+            <div class="product-item" data-price="1900" data-category="Tops">
+                <img src="https://m.media-amazon.com/images/I/61Rm0oDSRBL._SX679_.jpg" alt="Product 5" class="product-image">
+                <p>Prize:1900/-</p>
+                <div class="size-options">
+                    <button class="size-button">S</button>
+                    <button class="size-button">M</button>
+                    <button class="size-button">L</button>
+                    <button class="size-button">XL</button>
+                </div>
+                <button>Add to Cart</button>
+            </div>
+            <div class="product-item" data-price="1500" data-category="Jeans">
+                <img src="https://m.media-amazon.com/images/I/51lH3FicbiL._SY879_.jpg" alt="Product 5" class="product-image">
+                <p>Prize:1500/-</p>
+                <div class="size-options">
+                    <button class="size-button">S</button>
+                    <button class="size-button">M</button>
+                    <button class="size-button">L</button>
+                    <button class="size-button">XL</button>
+                </div>
+                <button>Add to Cart</button>
+            </div>
+            <div class="product-item" data-price="500" data-category="Tops">
+                <img src="https://cdn.shopify.com/s/files/1/0614/0903/4456/files/compress_0923-fhdnmcrg-43-blue__1.jpg?v=1720757717" alt="Product 2" class="product-image">
+                <p>Prize:500/-</p>
+                <div class="size-options">
+                    <button class="size-button">S</button>
+                    <button class="size-button">M</button>
+                    <button class="size-button">L</button>
+                    <button class="size-button">XL</button>
+                </div>
+                <button>Add to Cart</button>
+            </div>
+            
+            <div class="product-item" data-price="1700" data-category="kurtas">
+                <img src="https://www.jiomart.com/images/product/original/rvjbifj6xg/nioni-women-s-straight-kurta-high-neck-fashionable-kurti-for-girls-and-woman-3-4-sleeves-wine-red-xl-product-images-rvjbifj6xg-0-202307061520.jpg?im=Resize=(500,630)" alt="Product 5" class="product-image">
+                <p>Prize:1700/-</p>
+                <div class="size-options">
+                    <button class="size-button">XS</button>
+                    <button class="size-button">M</button>
+                    <button class="size-button">L</button>
+                    <button class="size-button">XL</button>
+                </div>
+                <button>Add to Cart</button>
+            </div>
+            <div class="product-item" data-price="700" data-category="kurtas">
+                <img src="https://m.media-amazon.com/images/I/610InQb9rTL._SX679_.jpg" alt="Product 5" class="product-image">
+                <p>Prize:700/-</p>
+                <div class="size-options">
+                    <button class="size-button">XS</button>
+                    <button class="size-button">M</button>
+                    <button class="size-button">L</button>
+                    <button class="size-button">XXL</button>
+                </div>
+                <button>Add to Cart</button>
+            </div>
+           
+            <div class="product-item" data-price="1500" data-category="kurtas">
+                <img src="https://m.media-amazon.com/images/I/61cTtzrqehL._SY879_.jpg" alt="Product 5" class="product-image">
+                <p>Prize:1500/-</p>
+                <div class="size-options">
+                    <button class="size-button">S</button>
+                    <button class="size-button">M</button>
+                    <button class="size-button">L</button>
+                    <button class="size-button">XXL</button>
+                </div>
+                <button>Add to Cart</button>
+            </div>
+            <div class="product-item" data-price="1200" data-category="kurtas">
+                <img src="https://m.media-amazon.com/images/I/71BLkd39VKL._SY879_.jpg" alt="Product 5" class="product-image">
+                <p>Prize:1200/-</p>
+                <div class="size-options">
+                    <button class="size-button">S</button>
+                    <button class="size-button">M</button>
+                    <button class="size-button">L</button>
+                    <button class="size-button">XL</button>
+                </div>
+                <button>Add to Cart</button>
+            </div>
+            <div class="product-item" data-price="1500" data-category="Tops">
+                <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSAXCAiBtGzvf0FNG_rJ8ChNtTdljYewX87TspcPBvMIgyEWK47qf2XkC2Z34tBl7Cx-Bs&usqp=CAU" alt="Product 3" class="product-image">
+                <p>Prize:1500/-</p>
+                <div class="size-options">
+                    <button class="size-button">S</button>
+                    <button class="size-button">M</button>
+                    <button class="size-button">L</button>
+                    <button class="size-button">XL</button>
+                </div>
+                <button>Add to Cart</button>
+            </div>
+            <div class="product-item" data-price="900" data-category="kurtas">
+                <img src="https://m.media-amazon.com/images/I/51DxjFLpxnL._SX679_.jpg" alt="Product 5" class="product-image">
+                <p>Prize:900/-</p>
+                <div class="size-options">
+                    <button class="size-button">XS</button>
+                    <button class="size-button">M</button>
+                    <button class="size-button">XXL</button>
+                </div>
+                <button>Add to Cart</button>
+            </div>
+            
+            <div class="product-item" data-price="900" data-category="sarees">
+                <img src="https://encrypted-tbn1.gstatic.com/shopping?q=tbn:ANd9GcRoVZ1I8eMJhpitcUEyykmr3u6qUZ2Vsbx5vxpaiEIP_iFCxrBE54ZJ-ZQ1pd3scpIeQgEOq6awPUbgHXd4nWDObWXFwGId1rOmKk76qcZcQLoFjLKV5Kvg&usqp=CAc" alt="Product 5" class="product-image">
+                <p>Prize:900/-</p>
+                <div class="size-options">
+                    <button class="size-button">S</button>
+                    <button class="size-button">M</button>
+                    <button class="size-button">L</button>
+                    <button class="size-button">XL</button>
+                </div>
+                <button>Add to Cart</button>
+            </div>
+            <div class="product-item" data-price="899" data-category="sarees">
+                <img src="https://m.media-amazon.com/images/I/71qMLnbCmfL._SY879_.jpg" alt="Product 5" class="product-image">
+                <p>Prize:899/-</p>
+                <div class="size-options">
+                    <button class="size-button">S</button>
+                    <button class="size-button">M</button>
+                    <button class="size-button">L</button>
+                    <button class="size-button">XL</button>
+                </div>
+                <button>Add to Cart</button>
+            </div>
+            <div class="product-item" data-price="999" data-category="sarees">
+                <img src="https://m.media-amazon.com/images/I/71B3x-DZjOL._SY879_.jpg" alt="Product 5" class="product-image">
+                <p>Prize:999/-</p>
+                <div class="size-options">
+                    <button class="size-button">S</button>
+                    <button class="size-button">M</button>
+                    <button class="size-button">L</button>
+                    <button class="size-button">XL</button>
+                </div>
+                <button>Add to Cart</button>
+            </div>
+            <div class="product-item" data-price="1500" data-category="sarees">
+                <img src="https://m.media-amazon.com/images/I/51VdTFK4d8L._SY879_.jpg" alt="Product 5" class="product-image">
+                <p>Prize:1500/-</p>
+                <div class="size-options">
+                    <button class="size-button">XS</button>
+                    <button class="size-button">M</button>
+                    <button class="size-button">L</button>
+                    <button class="size-button">XL</button>
+                </div>
+                <button>Add to Cart</button>
+            </div>
+            <div class="product-item" data-price="1200" data-category="sarees">
+                <img src="https://m.media-amazon.com/images/I/71Yt6iUTfEL._SX679_.jpg" alt="Product 5" class="product-image">
+                <p>Prize:1200/-</p>
+                <div class="size-options">
+                    <button class="size-button">S</button>
+                    <button class="size-button">M</button>
+                    <button class="size-button">L</button>
+                    <button class="size-button">XL</button>
+                </div>
+                <button>Add to Cart</button>
+            </div>
+
+        </div>
+
+    </div>
+
+    <!-- JavaScript for filtering products -->
+    <script src="women.js"></script>
+
+</body>
+</html>
